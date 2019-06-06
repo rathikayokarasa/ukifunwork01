@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+          <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="//connect.soundcloud.com/sdk.js"></script>
+      <script type="text/javascript" src="main.js">
+
+      </script>
+  </head>
+  <style>
+    .container {
+      height:600px;
+      background-color:black;
+    }
+
+  .rounded {
+    padding: 20px;
+    height: 400px;
+    width:280px;
+}
+
+.btn {
+width:100px;
+padding-right: 10px;
+margin-right: 10px;
+
+}
+
+body {
+ background-image: url("mm.jpg");
+}
+
+.jumbotron {
+   background-image: url("mm.jpg");
+
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+font-size: 100px;
+
+}
+
+ p{
+   color: white;
+   text-align: center;
+ }
+.btn{
+  background-color: white;
+  color: black;
+}
+
+  </style>
+  <body>
+
+  <div class="jumbotron">
+    <h1>MUSIC.GO</h1>
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">MUSIC.GO</a>
+
+      <!-- Links -->
+      <ul class="navbar-nav">
+
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            SONGS
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">New Songs</a>
+            <a class="dropdown-item" href="#">Old Songs</a>
+            <a class="dropdown-item" href="#">A.R Songs</a>
+              <a class="dropdown-item" href="#">Hits Songs</a>
+          </div>
+        </li>
+      </ul>
+
+      <form class="form-inline ml-auto" action="/action_page.php">
+         <input class="form-control mr-sm-2" type="text" placeholder="my Music">
+         <button class="btn btn-success but" type="submit">Search</button>
+       </form>
+
+
+    </nav>
+
+
+
+
+
+
+<div class="container">
+
+<div class="row">
+
+
+  <div class="col-sm-3">
+    <img class="rounded" src="f5.jpeg" alt="">
+    <p>Nooru Samigal</p>
+      <button class="btn btn-primary" id="Start1">play</button>   <button class="btn btn-danger" id="Stop1">stop</button>
+  </div>
+
+
+  <div class="col-sm-3">
+    <img class="rounded" src="f1.jpeg" alt="">
+    <p>Polam ride</p>
+    <button class="btn btn-primary" id="Start">play</button>   <button class="btn btn-danger" id="Stop">stop</button>
+  </div>
+
+
+  <div class="col-sm-3">
+    <img class="rounded" src="f3.jpeg" alt="">
+    <p>Oh Thozha </p>
+      <button class="btn btn-primary" id="Start2">play</button>   <button class="btn btn-danger" id="Stop2">stop</button>
+  </div>
+
+
+  <div class="col-sm-3">
+    <img class="rounded" src="f4.jpeg" alt="">
+    <p>kurumba </p>
+      <button class="btn btn-primary stream" id="Start3">play</button>   <button class="btn btn-danger" id="Stop3">stop</button>
+  </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+  </body>
+</html>
